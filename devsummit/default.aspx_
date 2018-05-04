@@ -1,0 +1,13 @@
+﻿<%@ Page Language="C#" %>
+<%
+Response.RedirectLocation = Response.ApplyAppPathModifier("http://www.msvevent.com/");
+Response.StatusCode = 301;
+%>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+
+</body>
+</html>

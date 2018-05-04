@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* reset.css ================================= */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	
+	word-wrap:break-word;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, img {
+	display: block;
+}
+body {
+	line-height: 1.5;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#footer-container{
+	width: 100%;
+    background-color: #CCCCCC;
+
+}
+
+caption, th {
+	text-align:left;
+}
+:link, :visited {
+	text-decoration:none;
+}
+
+
+/* base.css ================================== */
+html, body, div, p, img,
+h1, h2, h3, h4, h5, h6,
+dl, dt, dd, ol, ul, li,
+table, caption, tbody, tfoot, thead, tr, th, td,
+span, em, strong, a
+{ font-family:Arial, Helvetica, sans-serif; }
+
+strong { font-weight:bold; }
+a {	cursor:pointer; }
+
+.clear-both { display:block; clear:both; }
+.overlay { width:100%; height:100%; position:fixed; left:0; top:0; z-index:1; opacity:0.5; filter:alpha(opacity = 50); -moz-opacity:0.5; }
+
+
+/* framework style =========================== */
+
+/* Pin to task - start */
+/*
+#pin-bar { 
+	background-color:#333; color:#FFF; text-align:center; position:relative;
+	height:0; overflow:hidden;
+	font-size:15px;
+}
+#pin-bar > span { display:block; padding:4px 0; }
+#pin-bar > span > img { vertical-align:middle; cursor:move; padding-bottom:2px; display:inline; }
+#pin-bar #btn-close { position:absolute; top:4px; right:4px; }
+*/
+/* Pin to task - end */
+
+#header { width:1160px; margin:auto; padding: 20px 0 30px; }
+/*#header #ms-logo { display:none; }*/
+#header ul#shareFN li a.icon1 {
+background-position: 0px -5px!important;
+}
+#header ul#shareFN li a.icon2 {
+background-position: -33px -5px!important;
+}
+#header ul#shareFN li a.icon3 {
+background-position: -68px -5px!important;
+}
+#header ul#shareFN li a.icon4 {
+background-position: -98px -5px!important;
+}
+#header ul#shareFN li a.icon5 {
+background-position: -130px -5px!important;
+}
+#header ul#shareFN li a.icon6 {
+background-position: -165px -5px!important;
+}
+
+
+#page-title { width:1176px;  height:10px; margin:auto; background-color:#d2d2d2;  position:relative; top:35px;}
+#page-title img{ position:relative; left:0px; top:-58px; }
+
+	
+#footer { width:916px; height:60px; margin:0px auto 0 auto; padding:25px 0 0 0; background-color:#CCCCCC; }
+#footer div img { display:inline; }
+
+
+.header {}
+
+.container { width:1176px; margin:auto; position:relative; }
+
+.footer {}

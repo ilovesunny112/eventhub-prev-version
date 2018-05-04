@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin:0;
+	padding:0;
+}
+html, body {
+	font-family: "微软雅黑";
+	font-size:12px;
+	height:100%;	
+	background-color:white;
+}
+ul {
+	list-style:none;
+}
+h1 {
+	font-size:15px;
+}
+h2 {
+	font-size:14px;
+}
+img {
+	border:none;
+}
+input {
+	vertical-align:middle;
+	font-family: "微软雅黑";
+}
+.noShow {
+	display:none;
+}
+.noMagrin {
+	margin:0 !important;
+}
+.noBg {
+	background:none !important;
+}
+.noBorder {
+	border:none !important;
+}
+.divC {
+	clear:both;
+	height:0;
+	font-size:0;
+	line-height:0;
+}
+

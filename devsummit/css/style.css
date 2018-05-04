@@ -1,0 +1,364 @@
+
+.padg{
+    background-size: cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    -ms-background-size:cover;
+    padding:0em 0em 0em;
+    background-color: greenyellow;
+    min-height:40px;
+}
+
+.container p{
+    font-family: "Microsoft YaHei";
+    color: black;
+}
+.container h4{
+    font-family: "Microsoft YaHei";
+    color: black;
+}
+.container h5{
+    font-family: "Microsoft YaHei";
+    color: black;
+}
+.container th{
+    font-family: "Microsoft YaHei";
+    /*font-size: ;*/
+}
+.container td{
+    font-family: "Microsoft YaHei";
+}
+.container span{
+    font-family:"Segoe UI";
+    color: black;
+}
+
+.plans {
+    padding:3em 0px;
+}
+
+.bs-docs-example {
+    margin: 1em 0;
+    /*background-color: #bce8f1;*/
+}
+.table{
+    border: none;
+    border-bottom: 1px solid #f2f2f2;
+}
+.table td, .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td,
+.table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 3px!important;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th,
+.table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    font-size: 0.9em;
+    /*color: #777;*/
+    /*border-top: none !important;*/
+}
+.table > thead > tr > th, .table > tbody > tr > th,
+.table > tfoot > tr > th, .table > thead > tr > td,
+.table > tbody > tr > td, .table > tfoot > tr > td {
+    border-top: none !important;
+
+    border: none;
+    /*border: 3px solid white;*/
+    /*border-bottom: 1px solid #659D24;*/
+}
+
+.table > thead > tr >th{
+    background-color: #f2f2f2;
+    color: black;
+
+    height:30px !important;
+}
+.table > tbody > tr > td{
+    /*background-color: #CFF0FB;*/
+
+    display:table-cell; vertical-align:middle;
+
+    line-height: normal;
+}
+
+    /*--gallery--*/
+.gallery {
+    padding: 3em 0;
+}
+.gallery-bottom{
+    margin-top:2em;
+}
+.gallery-left img{
+    width:100%;
+}
+.gallery-left:hover img {
+    -webkit-filter: grayscale(100%);
+    opacity:8;
+    transition: all 300ms!important;
+    -webkit-transition: all 300ms!important;
+    -moz-transition: all 300ms!important;
+}
+.gallery-grid img{
+    width:100%;
+}
+
+.gallery-grid{
+    position: relative;
+}
+.gallery-1{
+    margin-top:25px;
+}
+.gallery-1:nth-child(1){
+    margin-top:0;
+}
+
+/*address*/
+.about h2,.review h2,.gallery h2,.contact h2{
+    /*font-size:2.5em;*/
+    margin: 0;
+    /*color: #0dc5dd;*/
+    font-family: 'Microsoft YaHei';
+    font-weight: 600;
+    text-align: center;
+}
+.about{
+    padding:0 0;
+}
+.about-text{
+    margin-top: 3em;
+}
+
+.about-text-left{
+    margin-right: 0px;
+}
+.about-text-left img {
+    /*width: 90%;*/
+    padding-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.about-text-right p {
+    line-height: 1.8em;
+    margin-top: 1em;
+}
+
+
+/*--single--*/
+.single-middle h3{
+    /*font-size: 2.3em;*/
+    /*color: #2d2d2d;*/
+    text-align:center;
+    margin: 0 0 1em;
+}
+
+/*.single-middle h3 ,.single-bottom h3{*/
+    /*font-size:1.7em;*/
+/*}*/
+
+.single-middle {
+    margin-top: 2em;
+}
+
+.media {
+    margin: 0em 0 2em;
+    /*float: left;*/
+}
+
+.media-body h4{
+    /*font-size: 1.3em;*/
+    padding-top: 5px;
+}
+.media-body h4 a{
+    /*color: #2d2d2d;*/
+    text-decoration:none;
+    font-family: 'Microsoft YaHei';
+    /*font-size:1em;*/
+}
+.media-body p {
+    margin: 0.7em 0 0em;
+    /*font-size: 0.9em;*/
+    /*color: #999;*/
+    line-height: 1.8em;
+}
+
+
+
+
+.media {
+    margin-top: 15px;
+}
+.media:first-child {
+    margin-top: 0;
+}
+.media,
+.media-body {
+    overflow: hidden;
+    zoom: 1;
+}
+.media-body {
+    padding-left: 10px;
+    width: 10000px;
+}
+.media-object {
+    display: block;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    border-left: 2px dashed #E76308;
+    border-bottom: 2px dashed #E76308;
+
+}
+
+.media >  {
+    padding-left: 10px;
+}
+.media >  {
+    padding-right: 10px;
+}
+.media-left{
+    padding-right: 3px;
+}
+.media-left,
+.media-body {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.media-heading {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 991px){
+
+    .gallery-grid {
+        position: relative;
+        width: 25%;
+        float: left;
+    }
+
+    .about-text-right{
+        margin-top:1em;
+    }
+}
+@media (max-width: 640px){
+    .gallery {
+        padding: 2em 0;
+    }
+
+    .gallery-grid {
+        width: 50%;
+        margin-bottom: 21px;
+    }
+    .gallery-1 {
+        margin-top: 0px;
+    }
+
+    .about {
+        padding: 2em 0;
+    }
+    .about-text {
+        margin-top: 2em;
+    }
+
+    .plans{
+        padding: 2em 0px;
+    }
+    .about-text-left {
+        /*padding:0;*/
+        margin-left: 0px;
+    }
+
+}
+
+@media(max-width:480px){
+
+    .about-text-left {
+        padding:0;
+        margin-left: 0px;
+    }
+
+    .about-text-right{
+        padding:0;
+    }
+
+    .media-left{
+        padding-right: 2px;
+        /*width: 50%;*/
+    }
+
+}
+
+
+@media(max-width:320px){
+
+    .media-left{
+        padding-right: 2px;
+        /*width: 40%;*/
+    }
+
+    .gallery-grid {
+        width: 100%;
+        margin-bottom: 21px;
+        padding: 0;
+    }
+    .gallery-bottom {
+        margin-top: 1em;
+    }
+    .gallery {
+        padding: 1em 0;
+    }
+    .about {
+        padding: 1.5em 0;
+    }
+    .about-text {
+        margin-top: 1em;
+    }
+    .single-middle {
+        margin-top: 1em;
+    }
+    .plans {
+        padding: 1em 0px;
+    }
+
+    .table td, .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td,
+    .table>thead>tr>th {
+        padding: 7px!important;
+    }
+
+
+}
+
+.example-image{
+    padding-right: 20px;
+    padding-left: 10px;
+    z-index: 2;
+}
+
+.example-imagebg{
+    background-color: #F8C90A;
+}
+
+.jianjie{
+    border-left: 3px solid #F8C90A;
+    border-bottom: 1px solid #F8C90A;
+}
+.media-body{
+    border-left: 2px solid #E76308;
+    margin-left: -5px;
+}
+
+.media-text{
+
+}
+
+
+/*============= footer =============*/
+.footer{ height: 130px; font-size: 14px; background-color: #EEEEEE; border-top: 0px solid transparent; overflow: hidden; }
+.footer .grid-container{ position: relative; margin-top: 1em; }
+/*.footer a.local{ position: absolute; left: 0; top: 0; padding: 0 0 0 35px; line-height: 24px; background: url() no-repeat 0 0; }*/
+.footer .logo{ position: absolute; right: 0;top: 60px;clear: left ;}
+.footer ul{ position: absolute; top: 20px; right: 0; }
+.footer ul li{ float: left; margin: 0 0 0 2em; }
+.footer a{ color: #1570A6; text-decoration: none; font-family: "Microsoft YaHei"}
+.footer a:hover{ color: #083047; text-decoration: underline; }
+.footer span{font-family: "Segoe UI"}

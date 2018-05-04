@@ -1,0 +1,82 @@
+/*============= reset =============*/
+body, div, dl, dt, dd, ul, ol, li,
+h1, h2, h3, h4, h5, h6, pre, code,
+form, fieldset, legend, input, button,
+textarea, p, blockquote, th, td { margin: 0; padding: 0; }
+fieldset, img { border: 0; }
+:focus { outline: 0; }
+address, caption, cite, code, dfn,
+em, th, var, optgroup { font-style: normal; font-weight: normal; }
+abbr, acronym { border: 0; font-variant: normal; }
+input, button, textarea,
+select, optgroup, option { font-family: inherit; font-size: inherit; font-style: inherit; font-weight: inherit; }
+code, kbd, samp, tt { font-size: 100%; }
+input, button, textarea, select { *font-size: 100%; }
+img,input,textarea,select,button { vertical-align: middle; }
+button{ padding: 0 5px; line-height: 18px; }
+body {  font: 100%/1.5 "Microsoft Yahei","\5B8B\4F53","Arial"; -webkit-text-size-adjust: none; background-color: #fff; }
+ol, ul { list-style: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+caption, th { text-align: left; }
+sub { font-size: 100%; vertical-align: baseline; }
+sup{ vertical-align: top; font-size: 100%; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after { content: ''; content: none; }
+
+/* clearing hack */
+.clearfix:after {visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;}
+.clearfix{*zoom:1;}
+/* end clearing hack */
+
+/*============= header =============*/
+.header{ position: relative; border-bottom: 5px solid #eee; margin: 2.1em auto 0 auto; max-width: 1600px; }
+.grid-container { margin-left: auto; margin-right: auto; max-width: 1180px; width: 950px; }
+.header-left { float: left; margin: 0; width: 40%; padding-bottom:15px;}
+.header-left h1{font-size: 30px; font-weight: normal; margin: 10px 0 0 0;}
+.mscom-search{ clear: none; display: block !important; float: right; width: 39%; margin-top: 0.4em; position: relative; }
+.search-form { -moz-box-sizing: border-box; border: 1px solid #D2D2D2; width:100%; font-size: 0.875em; position: relative; }
+.screen-reader-text { border: 0 none; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+.search-form .input-wrapper { margin-right: 24px; }
+.input-area{ -moz-appearance: none; -moz-box-sizing: border-box; border: medium none; display: block; font-size: 1.05em; height: 24px; line-height: 24px; padding: 0 1%; width: 100%; }
+.search-submit { -moz-appearance: none; border: 0 none; background: none; cursor: pointer; display: block; height: 16px; padding: 0; position: absolute; right: 4px; top: 4px; width: 16px; }
+.search-results-box { display: none; -moz-box-sizing: border-box; background: none repeat scroll 0 0 #FFFFFF; border-image: none; border: 1px solid #ccc; border-style: none solid solid; border-width: 1px; font-size: 0.9em; position: absolute; width: 100%; z-index: 2000;font-size:14px; }
+.search-scope { padding-top: 0.5em; }
+.search-results-box a { color: #1A1A1A; cursor: pointer; display: block; padding: 0.5em 1em; }
+.search-scope a { padding-left: 2.5em; }
+.search-scope .checked { background-image: url("http://i.s-microsoft.com/global/ImageStore/PublishingImages/icons/tick_mark_15x13.png"); background-position: 0.75em center; background-repeat: no-repeat; font-weight: bold; position: relative;font-size:14px; }
+.search-scope .checked:hover { background-image: url("http://i.s-microsoft.com/global/ImageStore/PublishingImages/icons/tick_mark_wht_15x13.png"); }
+.search-results-box a:hover, .search-results-box li.selected a { background-color: #1570A6; color: #FFFFFF; text-decoration: none; }
+.top-nav{ margin: 1em 0 0 -0.93em; }
+.top-nav li{ float: left; }
+.top-nav li a { padding: 0 0.93em; text-decoration: none; color: #1A1A1A; line-height: 2.5em; }
+.top-nav li a:hover{ color: #0060A6; }
+
+/*============= productsLinks =============*/
+.ms-pro-links{ padding-top: 2.5%; background: #EEEEEE; }
+.grid-unit{ display: inline; float: left; position: relative; width: 23%; margin-left: 2%; }
+.grid-unit .heading{ font-size: 15px; font-weight: normal; line-height: 1.25em; margin-bottom: 0.65em; color: #1A1A1A; }
+.grid-unit  ul{ margin: 0.9em 0 1.5em 0; padding: 0.25em 0 0.5em; }
+.grid-unit li{ font-size: 14px; margin: 0 0 10px 0; }
+.grid-unit a{ color: #1570A6; text-decoration: none; }
+.grid-unit a:hover{ color: #083047; text-decoration: underline; }
+.col-1 { margin-left: 0; }
+.col-1 a{ color: #1A1A1A; }
+.col-1 ul{ margin-bottom: 0; }
+.col-1 li{ line-height: 1.7em; margin-bottom: 0.75em; font-size: 16px; }
+.col-1 img{ display: inline-block; height: 26px; margin-right: 10px; width: 26px; }
+.cam-links{ padding: 0 0 2.5% 0; }
+.cam-links span{ font-size: 1em; margin: 0 3em 0 0; }
+.cam-links a{ font-size: 14px; margin: 0 1.5em 0 0; color: #1570A6; text-decoration: none; }
+.cam-links a:hover{ color: #1A1A1A; text-decoration: underline; }
+
+
+/*============= footer =============*/
+.footer{ height: 90px; font-size: 14px; background-color: #EEEEEE;overflow: hidden; }
+.footer .grid-container{ position: relative; margin-top: 1em; }
+.footer a.local{ position: absolute; left: 0; top: 0; padding: 0 0 0 35px; line-height: 24px; background: url(../images/earth-symbol.png) no-repeat 0 0; }
+.footer .logo{ position: absolute; right: 0; top: 0; }
+.footer ul{ position: absolute; top: 30px; right: 0; }
+.footer ul li{ float: left; margin: 0 0 0 1em; }
+.footer a{ color: #1570A6; text-decoration: none; }
+.footer a:hover{ color: #083047; text-decoration: underline; }
